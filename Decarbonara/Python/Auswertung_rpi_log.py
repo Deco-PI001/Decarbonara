@@ -112,17 +112,13 @@ cb_etage.place(x=250, y=80)
 p3 = tk.StringVar()
 cb_raum = ttk.Combobox(i_fenster, width=20, height=25, textvariable=p3)
 cb_raum['values'] = ('Bad',
-                     'Gueste_WC',
+                     'Gäste_WC',
                      'Schlafzimmer',
                      'Wohnzimmer',
                      'Balkon',
                      'Arbeitszimmmer',
                      'Esszimmer',
-                     'Wohnzimmer_EG',
-                     'Wohnzimmer_OG1',
-                     'Balkon_OG1',
-                     'Esszimmer_OG1',
-                     'Küche_OG1',
+                     'Küche',
                      'Büro_DG')
 cb_raum.place(x=250, y=110)
 #cb_raum.current(0)
